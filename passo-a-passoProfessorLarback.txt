@@ -1,0 +1,58 @@
+> criar pasta do projeto
+
+> instalar  o laravel pelo composer (composer create-project laravel/laravel:^8.0 livraria)
+	***** versão 8 do Laravel*****
+
+> criar o banco de dados 'livraria'
+
+> alterar o database no .env
+
+> criar model Livro e migration livros com o comando : php artisan make:model Livro -m
+
+> criar as colunas da tabela na migration
+
+> executar a migrate/criar a tabela (php artisan migrate)
+
+> adicionar o atributo $fillble na minha model
+
+> criar view 'create' + inserção de dados
+
+> criar controller (php artisan make:controller LivrosController)
+
+> criar método 'create()' no controller
+
+> criar rota get
+
+> Http\providers\RouteServiceProvider descomentar a linha (protected $namespace = 'App\\Http\\Controllers';)
+
+> criar rota post
+
+> criar método store() no controller
+
+> adicionar action chamando a rota no form do create.blade.php
+
+> adicionar o 'use App\Models\Livro;'
+
+> criar rota de listagem/home
+
+> criar função show()
+
+> criar rota de exclusão
+
+> criar função de exclusão no controller (destroy())
+
+> editar view adicionando a ação do botão excluir
+
+> criar rota para edição do registro (edit())
+
+> criar função editar (Edit())
+
+> criar view editar.blade.php
+
+> acrescentar nos campos o 'value', para trazer os dados do banco de dados de cada campo referente ao 'id'
+
+> adicionar a rota na action do form na view 'editar'
+
+> criar rota para salvar a edição (update())
+
+> criar função 'update()' no controller
